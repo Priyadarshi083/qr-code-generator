@@ -10,6 +10,7 @@ function App() {
   function generateQR(e) {
     setText()
   }
+  
   function handleChange(e) {
     setText(e.target.value)
   }
