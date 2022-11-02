@@ -5,6 +5,9 @@ import { useState } from 'react';
 
 import collegeLogo from './img/logo.png';
 
+import qrcodeLogo from './img/qr-code.svg';
+
+
 function App() {
   const [text, setText] = useState("");
   function generateQR(e) {
@@ -18,8 +21,7 @@ function App() {
     <div class="text-xl font-bold text-white">QR Code Generator</div>
   </div>
   return (
-
-    <div classname="App">
+  <div classname="App">
       <div>
         <img className='logo' src={collegeLogo} alt='college-logo' />
       </div>
@@ -31,7 +33,7 @@ function App() {
         <p>Enter the generate code</p>
         <input types="text" value={text} onChange={(e) => { handleChange(e) }} />
         <form id="generate-form" class="mt-4">
-          <h3 class="my-2">Have A Nice Day</h3>
+          <h3 class="my-2">HAVE A NICE DAY</h3>
         </form>
       </div>
       <div class="w-1/3 self-center">
